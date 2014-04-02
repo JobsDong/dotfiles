@@ -1,0 +1,16 @@
+1. 安装tmux
+sudo apt-get install tmux
+
+2. 将.tmux-config .tmux-powerlinerc拷贝到~/
+cp .tmux-config .tmux-powerlinerc ~/
+
+3. 将tmux-powerline拷贝到~/.config/tmux/
+mkdir ~/.config/tmux
+cp -r tmux-powerline ~/.config/tmux/
+
+4. 修改.tmux-config文件
+set-option -g status-left "#(~/.config/tmux/tmux-powerline/powerline.sh left)"
+set-option -g status-right "#(~/.config/tmux/tmux-powerline/powerline.sh right)"
+
+5. 安装字体
+直接双击安装字体文件
