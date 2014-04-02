@@ -1,0 +1,19 @@
+Host 195
+	HostName 192.168.11.195
+	User geocoder
+
+Host 235 
+	HostName 192.168.11.235
+	User geocoder
+
+Host 230 
+	HostName 192.168.11.230
+	User geocoder
+
+Host 229 
+	HostName 192.168.11.229
+	User geocoder
+
+Host 107
+        HostName 192.168.11.107
+        User wuyadong
