@@ -15,6 +15,8 @@ Note: You shold install ctags and something else by youself to get full feature.
 
 `sudo apt-get install ctags`
 
+Note: You shold install jedi
+`sudo apt-get install jedi`
 
 
 cycle
