@@ -8,7 +8,7 @@ cp .tmux-config .tmux-powerlinerc ~/
 mkdir ~/.config/tmux
 cp -r tmux-powerline ~/.config/tmux/
 
-4. 修改.tmux-config文件
+4. 修改.tmux.config文件
 set-option -g status-left "#(~/.config/tmux/tmux-powerline/powerline.sh left)"
 set-option -g status-right "#(~/.config/tmux/tmux-powerline/powerline.sh right)"
 
@@ -16,4 +16,4 @@ set-option -g status-right "#(~/.config/tmux/tmux-powerline/powerline.sh right)"
 直接双击安装字体文件
 
 6. 推荐安装quake
-sudo apt-get install quake
+sudo apt-get install guake
