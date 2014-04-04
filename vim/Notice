@@ -1,0 +1,13 @@
+1. clone vim 配置文件
+ git clone https://github.com/jobsdong/dotfiles
+
+2. 拷贝配置文件
+ cp vim/.vimrc ~/
+
+3. 拷贝vim目录到config路径下
+ cp -r vim ~/.config/
+
+4. 安装库ctags, jedi
+ sudo apt-get install ctags
+ sudo apt-get install jedi
+
