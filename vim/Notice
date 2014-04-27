@@ -7,7 +7,15 @@
 3. 拷贝vim目录到config路径下
  cp -r vim ~/.config/
 
-4. 安装库ctags, jedi
+4. 修改配置文件
+vi ~/.config/vim/vimrc
+
+~/vim/vimrc ------> ~/.config/vim/vimrc
+~/vim/vimrc ------> ~/.config/vim/vimrc
+
+5. 安装库ctags, jedi
  sudo apt-get install ctags
  sudo apt-get install jedi
 
+6. 安装vim-gnome(用于寄存器共享)
+ sudo-apt-get install vim-gnome
