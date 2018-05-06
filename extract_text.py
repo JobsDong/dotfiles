@@ -242,7 +242,7 @@ def count_sim(title, line):
     inter_3_set = set(title_3_words).intersection(set(line_3_words))
     union_3_set = set(title_3_words).union(set(line_3_words))
 
-    return len(inter_2_set)*1.0/len(union_2_set) + len(inter_3_set) * 1.0 / len(union_3_set) / 2
+    return (len(inter_2_set)*1.0/len(union_2_set) + len(inter_3_set) * 1.0 / len(union_3_set)) / 2
 
 
 def _split_words(line, size):
